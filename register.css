@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+body {
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+::selection {
+  color: #c5cae4;
+  background-color: #737bacb5; 
+}
+
+.register-main-page {
+  width: 100vw;
+  height: 100vh;
+  background: #232020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-register-content {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+
+.register {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #423c3c;
+    border-radius: 5%;
+    box-shadow: 10px 5px 40px #141212;
+}
+
+.register > h1 {
+    color: #c5cae4;
+    font-weight: 800;
+    margin: 0;
+    font-family: 'Righteous', sans-serif;
+    opacity: 1;
+}
+
+.register > h1:hover {
+  opacity: 0.8;
+  transition: 500ms;
+}
+
+.form-register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.form-register > input {
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #726868;
+  color: #e8ebff;
+  font-size: 12pt;
+  font-family: 'Manrope', sans-serif;
+  box-shadow: 10px 5px 40px #141212;
+  outline-style: none;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+
+.form-register > ::placeholder {
+  color: #e8ebff9b;
+  font-family: 'Manrope', sans-serif;
+}
+
+.register-button {
+    width: 80%;
+    height: 20%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline-style: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 4px;
+    background: #95A2e2;
+    color: #141212;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #545c7f;
+}
+
+.register-button:hover {
+  color: #e8ebff;
+  transition: 500ms;
+}
+
+  .right-register-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 105px;
+    margin-right: 150px;
+  }
+  
+  .right-image {
+    width: 15vw;
+  }
+
+  .right-register-content > h1 {
+    color: #D9DEFC;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+  }
+
+  .right-textfield p {
+    color: #D9DEFC;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    margin-top: 1px;
+    opacity: 0.7;
+  }
+
+  .right-textfield > p:hover {
+    opacity: 1;
+    transition: 500ms;
+  }
+
+  .right-textfield > a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #95A2e2;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+  }
+
+  .right-textfield > a:hover {
+    color: #e8ebff;
+    transition: 500ms;
+  }
+
+
+
+
+
+
+
+
+
+

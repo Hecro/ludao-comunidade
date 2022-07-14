@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+body {
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #c5cae4;
+  background-color: #737bacb5; 
+}
+
+.main-forget-page {
+  width: 100vw;
+  height: 100vh;
+  background: #232020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.forgot-area {
+  display: grid;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgot-area > h1 {
+    color: #D9DEFC;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 800;
+    font-size: 3vw;
+    opacity: 1;
+}
+
+.forgot-area > h1:hover {
+    opacity: 0.8;
+    transition: 500ms;
+}
+
+.forgot-textfield > input {
+    width: 25vw;
+    border: none;
+    border-radius: 10px;
+    margin-left: 25px;
+    padding: 15px;
+    background: #726868;
+    color: #e8ebff;
+    font-size: 12pt;
+    font-family: 'Manrope', sans-serif;
+    box-shadow: 10px 5px 40px #141212;
+    outline-style: none;
+    box-sizing: border-box;
+}
+
+.forgot-textfield > ::placeholder {
+  color: #e8ebff9b;
+  font-family: 'Manrope', sans-serif;
+}
+
+.form-forgot > button {
+    width: 25vw;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline-style: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 4px;
+    background: #95A2e2;
+    color: #141212;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #545c7f;
+}
+
+.form-forgot > button:hover{
+  color: #e8ebff;
+  transition: 500ms;
+}
+
+.forgot-area > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #95A2e2;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+.forgot-area > a:hover {
+  color: #e8ebff;
+  transition: 500ms;
+}

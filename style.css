@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+body {
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #c5e4e0;
+  background-color: #737bacb5; 
+}
+
+.main-page {
+  width: 100vw;
+  height: 100vh;
+  background: #232020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .left-side-content {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .left-side-content > h1{
+    color: #95A2e2;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 800;
+    font-size: 3vw;
+    opacity: 1;
+  }
+
+  .left-side-content > h1:hover {
+    opacity: 0.8;
+    transition: 500ms;
+  }
+
+  .left-side-image {
+    width: 30vw;
+  }
+
+  .right-side-content {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-card {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #423c3c;
+
+    box-shadow: 10px 5px 40px #141212;
+  }
+
+  .login-card > h1 {
+    color: #c5cae4;
+    font-weight: 800;
+    margin: 0;
+    font-family: 'Righteous', sans-serif;
+    opacity: 0.8;
+  }
+
+  .login-card > h1:hover {
+    opacity: 1;
+    transition: 500ms;
+  }
+
+  .textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+
+  .textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 15px;
+    background: #726868;
+    color: #e8ebff;
+    font-size: 12pt;
+    font-family: 'Manrope', sans-serif;
+    box-shadow: 10px 5px 40px #141212;
+    outline-style: none;
+    box-sizing: border-box;
+  }
+
+  .textfield > label {
+    color: #3b3b3b;
+    margin-bottom: 10px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .textfield > ::placeholder {
+    color: #e8ebff9b;
+    ;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .register {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Manrope', sans-serif;
+    color: #c5cae4;
+  }
+
+  .register-btn {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #95A2e2;
+  }
+
+  .register-btn:hover {
+    color: #e8ebff;
+    transition: 500ms;
+  }
+
+  .textfield > a {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #95A2e2;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    margin-top: 2px;
+  }
+
+  .textfield > a:hover {
+    color: #e8ebff;
+    transition: 500ms;
+  }
+
+  .login-button {
+    width: 80%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline-style: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Righteous', sans-serif;
+    letter-spacing: 4px;
+    background: #95A2e2;
+    color: #141212;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #545c7f;
+  }
+  
+  .login-button:hover {
+    color: #e8ebff;
+    transition: 500ms;
+  }
+
+  @media only screen and (max-width: 950px){
+    .login-card{
+      width: 85%;
+    }
+  }
+
+  @media only screen and (max-width: 600px){
+    .main-page {
+      flex-direction: column;
+    }
+    .left-side-content > h1 {
+      display: none;
+    }
+    .left-side-content {
+      width: 100%;
+      height: auto;
+    }
+    .right-side-content {
+      width: 100%;
+      height: auto;
+    }
+    .left-side-image {
+      width: 50vw;
+    }
+    .login-card {
+      width: 90%;
+    }
+  }
