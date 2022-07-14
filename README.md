@@ -9,4 +9,5 @@ O projeto foi construido durante meus estudos das tecnologias utilizadas, nele e
 - Introdução a CSS, suas principais funcionalidades e estilização do projeto;
 - Flexbox no CSS;
 - Introdução a pseudo classes no CSS.
-**precisa de melhorias na responsividade, estou estudando para arrumar isso.
+
+precisa de melhorias na responsividade, estou estudando para arrumar isso.
